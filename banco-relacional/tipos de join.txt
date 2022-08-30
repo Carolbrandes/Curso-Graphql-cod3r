@@ -1,0 +1,18 @@
+1) Inner Join -> ele vai trazer todas as tuplas que vão estar relacionadas chave primaria com uma chave estrangeira.
+
+outer -> são as tuplas que não estão relacionadas.
+
+
+2) left join -> ele traz tudo que o inner traria mais as tuplas da tabela da esquerda. Eu trago o outer do lado esquerdo. Seria a mesma coisa que o comando left outer join
+
+3) full join -> nao é suportado pelo mysql, seria left join + right join a uniao dos 2.
+usamos o union.
+
+
+
+
+
+
+
+
+

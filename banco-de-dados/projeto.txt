@@ -1,0 +1,17 @@
+1º) npm init -y
+
+2º) instalar extensao code runner. ctrl + alt + n para rodar o codigo e ctrl + alt + m para parar.
+
+3º) npx knex init - ele cria o arquivo knexfile.js, que onde vai ficar a configuração para conexao do banco de dados
+
+4º) criar o schema no banco de dados
+
+5º) para criar as tabelas no banco de dados: npx knex migrate:make nome_da_tabela e ai ele vai criar a pasta migrations e os arquivos dentro dela.
+
+6º) para executar uma migration: npx knex migrate:latest e para desfazer a migrate npx knex migrate:rollback
+
+obs: no knex existe o comando npx knex seed:make que é para preencher alguma tabela do banco de dados
+
+7º) vamos criar a pasta config e dentro dela p arquivo db.js onde vamos configurar o knex
+
+8º) criar a pasta teste onde serão feitas as inserções e consultas
